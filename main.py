@@ -3,7 +3,7 @@ import numpy as np
 import math
 
 
-def Sierpinski(n, mapa):
+def Sierpinski(n: int, mapa: str) -> np.ndarray:
     p1 = []
     puntoscentrales = []
     centro = [(int(3**n/2), int(3**n/2))]
